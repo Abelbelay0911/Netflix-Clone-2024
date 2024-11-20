@@ -25,13 +25,11 @@ const Header = () => {
                 navbarScroll
               >
                 <Nav className="me-auto">
-                  <Nav.Link href="">
-                    {" "}
+                  <Nav.Link  href="">
+                   
                     <img src={NetflixLogo} width={"100"} alt="" />
                   </Nav.Link>
-                  <Nav.Link className="color" href="#features">
-                    Home
-                  </Nav.Link>
+                  <Nav.Link  href="#features">Home</Nav.Link>
                   <Nav.Link href="#pricing">Tvshows</Nav.Link>
                   <Nav.Link href="#pricing">Movies</Nav.Link>
                   <Nav.Link href="#pricing">Latest</Nav.Link>
@@ -40,9 +38,8 @@ const Header = () => {
                 </Nav>
               </Nav>
             </Navbar.Collapse>
-            
             <Nav>
-              <Nav.Link href="#deets">
+              <Nav.Link href="">
                 <SearchIcon />
               </Nav.Link>
               <Nav.Link eventKey={2} href="">
