@@ -3,10 +3,12 @@ import "./Fotter.css"
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+
 const Fotter = () => {
     return (
       <>
-        <div className='footer'>
+
+        <div className="footer">
           <div className="footer-icons">
             <FacebookIcon />
             <InstagramIcon />
@@ -38,7 +40,6 @@ const Fotter = () => {
           <div className="footer_copy-right">
             &copy; 1997-2024 Netflix, Inc.
           </div>
-          
         </div>
       </>
     );

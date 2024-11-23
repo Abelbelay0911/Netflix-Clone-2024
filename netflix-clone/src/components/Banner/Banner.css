@@ -4,22 +4,21 @@
 /* CSS */
 .banner{
 object-fit: contain;
-height: 80vh; 
+/* height: 80vh;  */
 color: #ffffff;
-margin-bottom: -70vh;
+/* margin-bottom: -70vh; */
 
 }
 .banner-contents{
   margin-left: 30px;
   padding-top: 120px;
-
+/* margin-bottom: -70vh; */
 }
 /* .banner-title{
   font-size: -250px;
   font-weight: 800;
 } */
 .banner_button {
-
   align-items: center;
   background-color: #807676;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -74,12 +73,10 @@ margin-bottom: -70vh;
 .banner_fade{
  height: 50vh; 
  background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(18, 17, 17));
-
 }
 .banner_description{
   width: 20rem;
   line-height: 1.05;
   padding: 1rem 0;
   max-width: 460px;
-  height: 80px;
 }
