@@ -29,7 +29,7 @@ const Header = () => {
                    
                     <img src={NetflixLogo} width={"100"} alt="" />
                   </Nav.Link>
-                  <Nav.Link  href="#features">Home</Nav.Link>
+                  <Nav.Link  href="/">Home</Nav.Link>
                   <Nav.Link href="#pricing">Tvshows</Nav.Link>
                   <Nav.Link href="#pricing">Movies</Nav.Link>
                   <Nav.Link href="#pricing">Latest</Nav.Link>

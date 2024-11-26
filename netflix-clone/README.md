@@ -9,3 +9,6 @@ Currently, two official plugins are available:
 
 
  API_KEY =  199915e57036d50fc49b26bcd5e05e4f
+
+ netflix-clone/src/utils/requests.js
+ https://github.com/dannythedeveloper1/Netflix-Clone-2024/commits?author=dannythedeveloper1
