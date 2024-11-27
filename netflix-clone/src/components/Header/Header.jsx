@@ -25,11 +25,12 @@ const Header = () => {
                 navbarScroll
               >
                 <Nav className="me-auto">
-                  <Nav.Link  href="">
-                   
+                  <Nav.Link href="">
                     <img src={NetflixLogo} width={"100"} alt="" />
                   </Nav.Link>
-                  <Nav.Link  href="/">Home</Nav.Link>
+                  <Nav.Link href="https://abelbelay0911.github.io/Netflix-Clone-2024/">
+                    Home
+                  </Nav.Link>
                   <Nav.Link href="#pricing">Tvshows</Nav.Link>
                   <Nav.Link href="#pricing">Movies</Nav.Link>
                   <Nav.Link href="#pricing">Latest</Nav.Link>
