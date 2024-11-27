@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
     plugins: [react()],
     define: {
       "process.env": env,
-      base: "/netflix-clone/",
+      base: "Netflix-Clone-2024/netflix-clone/",
     },
   };
 });
