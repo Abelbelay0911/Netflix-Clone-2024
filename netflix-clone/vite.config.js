@@ -6,9 +6,10 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "");
   return {
     // ... other Vite config
-     plugins: [react()],
+    plugins: [react()],
     define: {
       "process.env": env,
+      base: "/netflix-clone/",
     },
   };
 });
